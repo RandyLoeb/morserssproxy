@@ -4,7 +4,7 @@ const host = process.env.HOST || '192.168.0.135'
 // Listen on a specific port via the PORT environment variable
 const port = process.env.PORT || 8085
 
-const corsProxy = require('cors-anywhere');
+const corsProxy = require('cors-anywhere')
 
 corsProxy.createServer({
   originWhitelist: [], // Allow all origins
